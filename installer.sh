@@ -8,7 +8,7 @@ echo ""
 # Download and install plugin
 cd /tmp
 set -e
-echo "===> Downloading And Installing  Skin-EUR02020 Please Wait ......"
+echo "===> Downloading And Installing  Skin-EUR02020-FHD-N-By-Muaath.ipk Please Wait ......"
 echo
 opkg install --force-overwrite /tmp/*.ipk
 set +e
