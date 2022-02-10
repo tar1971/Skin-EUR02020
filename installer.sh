@@ -10,7 +10,7 @@ cd /tmp
 set -e
 echo "===> Downloading And Installing  Skin-EUR02020-FHD-N-By-Muaath.ipk Please Wait ......"
 echo
-opkg install --force-overwrite /tmp/*.ipk
+opkg install --force-overwrite /var/volatile/tmp/*.ipk
 set +e
 rm -f docsat.tar.gz
 
