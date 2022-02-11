@@ -2,7 +2,7 @@
 #!/bin/sh
 #
 
-wget -O /var/volatile/tmp/Skin-EUR02020-FHD-N-By-Muaath.ipk 
+opkg install --force-overwrite  Skin-EUR02020-FHD-N-By-Muaath.ipk 
 "https://drive.google.com/uc?id=1CBTK9_xu1rNrTaBL1JIk4qGNBDViuoHl&export=download"
 echo ""
 # Download and install plugin
