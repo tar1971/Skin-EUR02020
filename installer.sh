@@ -12,7 +12,7 @@ echo "===> Downloading And Installing  Skin-EUR02020 Please Wait ......"
 echo
 opkg install --force-overwrite /var/volatile/tmp/Skin-EUR02020.ipk
 set +e
-rm -f docsat.tar.gz
+rm -f Skin-EUR02020.ipk
 
 echo ""
 sync
